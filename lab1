@@ -1,0 +1,11 @@
+import math
+e=0.01
+x=0.2
+s=0
+i=1
+a=math.sin(i*x)/i
+while a>=e:
+    s=s+a
+    i=i+2
+    a=math.sin(i*x)/i
+print(s)
